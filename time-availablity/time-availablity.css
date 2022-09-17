@@ -1,0 +1,79 @@
+.day {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.day input {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    margin-right: 15px;
+    border-radius: 2px;
+    padding-right: 20px;
+    line-height: 25px;
+}
+
+.day input[type="checkbox"] {
+    accent-color: #4d90fe;
+}
+
+.set-avaiablity label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.set-avaiablity .schedule-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.set-avaiablity .schedule-box .helper {
+    margin: 0 15px;
+    display: inline-block;
+    color: #a5a2a2;
+    cursor: pointer;
+}
+
+.set-avaiablity .schedule-box .nice-select {
+    width: 120px;
+    margin-bottom: 0;
+}
+
+.set-avaiablity .nice-select {
+    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    height: 42px;
+    line-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+    text-align: left !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: auto;
+}
+
+.set-avaiablity .form-control {
+    border-radius: 2px;
+    height: 40px;
+    padding-right: 20px;
+    line-height: 25px;
+}

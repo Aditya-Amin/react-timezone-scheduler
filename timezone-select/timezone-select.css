@@ -1,0 +1,23 @@
+.timezone {
+    display: flex;
+    align-items: center;
+}
+
+.timezone svg{
+    margin-right: 10px;
+}
+
+
+.timezone-select-box {
+    text-align: left;
+}
+
+.set-timezone {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.timezone svg{
+    fill: #4d90fe;
+}
